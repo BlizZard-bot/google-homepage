@@ -8,43 +8,52 @@
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <header>
+    <header  id="main-header">
       <div class="container">
         <nav id="navbar-top">
-          <li><a href="#">Gmail</a></li>
-          <li><a href="#">Images</a></li>
-          <li>
-            <img src="./Images/Google-apps-logo.png" alt="Google Apps Logo" />
-          </li>
-          <li>
-            <img
-              src="./Images/Profile_Picture.png"
-              alt="Google Profile Picture"
-            />
-          </li>
+          <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li>
+              <a href="#"><img src="./Images/Google-apps-logo.png" alt="Google Apps Logo" id="google-apps-logo" /></a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./Images/Profile_Picture.png"
+                  alt="Google Profile Picture"
+                  id="google-pfp"
+                />
+              </a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
     <main id="main-content"><div class="container">
         
-          <img src="./Images/google_logo.png" alt="Google" />
+          <img src="./Images/google_logo.png" alt="Google" id="google-logo"/>
           <input type="text" name="searchbar" id="searchbar" />
           <input type="submit" value="Google Search" class="btn" />
           <input type="submit" value="I'm Feeling Lucky" class="btn" />
     </div>
     </main>
-    <footer>
+    <footer id="main-footer">
       <div class="container">
           <nav id="navbar-bottom-left">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Advertising</a></li>
-            <li><a href="#">Businees</a></li>
-            <li><a href="#">How Search Works</a></li>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Businees</a></li>
+              <li><a href="#">How Search Works</a></li>
+            </ul>
           </nav>
           <nav id="navbar-bottom-right">
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Settings</a></li>
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
       </div>
       </nav>
     </footer>
