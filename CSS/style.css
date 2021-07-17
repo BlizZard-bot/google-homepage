@@ -9,10 +9,16 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
 body {
   font-size: 16px;
   font-family: "Roboto";
   line-height: 1.6em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -61,6 +67,9 @@ ul li {
 }
 
 /* Logo and Searchbar Code */
+main {
+  margin-bottom: 10em;
+}
 #main-content {
   display: flex;
   flex-direction: column;
@@ -83,12 +92,15 @@ ul li {
   width: 100%;
   margin: 0 auto;
 }
+footer {
+  margin-top: auto;
+}
 .footer {
+  margin-top: auto;
   font-size: 0.86rem;
   border-top: 1px solid rgba(112, 117, 122, 0.3);
   padding: 0.75em;
   display: flex;
-  margin-top: 24.5em;
   justify-content: space-between;
   align-items: center;
 }
