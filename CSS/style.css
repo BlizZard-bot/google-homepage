@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Global Styles */
 *,
 *::before,
 *::after {
@@ -21,6 +23,10 @@ a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
 }
+
+a:hover {
+  text-decoration: underline;
+}
 ul {
   margin-right: 0;
 }
@@ -29,7 +35,7 @@ ul li {
   display: inline-block;
   margin-left: 1em;
 }
-
+/* Header Code */
 #main-header ul {
   display: flex;
   justify-content: flex-end;
@@ -52,4 +58,46 @@ ul li {
   top: 0.25em;
   margin-right: 0;
   left: 0.75em;
+}
+
+/* Logo and Searchbar Code */
+#main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#google-logo {
+  position: relative;
+  top: 0.75em;
+}
+#searchbar {
+  margin: 3em 0;
+}
+/* Footer Code */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+.container__bottom {
+  width: 100%;
+  margin: 0 auto;
+}
+.footer {
+  font-size: 0.86rem;
+  border-top: 1px solid rgba(112, 117, 122, 0.3);
+  padding: 0.75em;
+  display: flex;
+  margin-top: 24.5em;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar-bottom-left ul li {
+  margin-left: 2em;
+}
+.footer ul li a {
+  color: #70757a;
+}
+#navbar-bottom-right ul li {
+  margin-right: 1.2em;
 }
