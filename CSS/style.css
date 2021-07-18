@@ -68,6 +68,7 @@ ul li {
 
 /* Logo and Searchbar Code */
 main {
+  margin-top: 3em;
   margin-bottom: 10em;
 }
 #main-content {
@@ -79,9 +80,40 @@ main {
   position: relative;
   top: 0.75em;
 }
-#searchbar {
-  margin: 3em 0;
+.searchbar__container {
+  min-width: 350px;
+  position: relative;
+  padding: 0.3em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: 1px solid #dfe1e5;
+  border-radius: 100px;
+  margin: 2.5em 0;
 }
+#searchbar {
+  border: none;
+  color: rgba(0, 0, 0, 0.87);
+  background: transparent;
+  width: 87.5%;
+  padding: 0.7em 0;
+  margin-left: 1em;
+}
+.searchbar-icon__search {
+  filter: contrast(0);
+  position: absolute;
+  left: 0.8em;
+  height: 20px;
+  width: 20px;
+}
+.searchbar__container:hover {
+  box-shadow: 0 1px 1px 1px #dfe1e5;
+}
+#searchbar:focus {
+  outline: none;
+}
+
 /* Footer Code */
 .buttons {
   display: flex;
