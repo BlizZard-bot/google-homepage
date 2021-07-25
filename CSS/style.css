@@ -131,6 +131,7 @@ main {
   background: transparent;
   padding: 0.7em 0.7em;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .btn:hover {
